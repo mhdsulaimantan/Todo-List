@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <title>Todo List</title>
+</head>
+
+<body>
+    <div id="container">
+        <nav>
+            <div class="nav-title">
+                <span style="color: #b50d0d;">To</span>
+                <span style="color: orange;">-</span>
+                <span style="color: #29a179;">Do</span>
+                List
+            </div>
+            <ul>
+                <li class="selected">
+                    <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M3,5H9V11H3V5M5,7V9H7V7H5M11,7H21V9H11V7M11,15H21V17H11V15M5,20L1.5,16.5L2.91,15.09L5,17.17L9.59,12.59L11,14L5,20Z" />
+                    </svg>
+                    <span>ToDos</span>
+                </li>
+                <li>
+                    <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6H12L10,4Z" />
+                    </svg>
+                    <span>Projects</span>
+                </li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="header">
+                <div class="section-title">
+                    ToDos
+                </div>
+                <button class="add" title="Add">+</button>
+            </div>
+            <div class="main-content"></div>
+        </div>
+    </div>
+</body>
+
+</html>
