@@ -1,0 +1,83 @@
+.warning-msg {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.warning-msg svg {
+    color: orangered;
+}
+
+.main-content-header {
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+table {
+    width: 95%;
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+table tr.list-header,
+table td.item-priority {
+    font-weight: bolder;
+}
+
+table th,
+table td {
+    width: 20%;
+    text-align: center;
+}
+
+table td {
+    font-weight: lighter;
+}
+
+table tr {
+    display: flex;
+    border-bottom: 1px solid black;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+table td #done-mark {
+    color: green;
+}
+
+table td #edit-btn {
+    color: #7973b0;
+}
+
+table td #delete-btn {
+    color: #e30d0d;
+}
+
+table td #view-btn {
+    color: #bf7300;
+}
+
+table td #create-new-todo-dom {
+    color: white;
+    border-radius: 30px;
+    background-color: #c3d018;
+    padding: 0.3rem;
+    font-weight: bold;
+    border-style: hidden;
+    box-shadow: 2px 2px 5px black;
+}
+
+table td #done-mark:hover,
+table td #edit-btn:hover,
+table td #delete-btn:hover,
+table td #view-btn:hover,
+table td #create-new-todo-dom:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
